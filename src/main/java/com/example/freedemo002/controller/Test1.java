@@ -18,6 +18,8 @@ public class Test1 {
     @ResponseBody
     @RequestMapping("/test")
     public String test(){
+
+        System.out.println("用于提示20200116分支");
         return "ok";
     }
 
